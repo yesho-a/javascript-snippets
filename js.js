@@ -1,4 +1,4 @@
-/*function add(a, b , callback){ 
+function add(a, b , callback){ 
    document.write(`The sum of ${a} and ${b} is ${a+b}.` +"<br>"); 
    callback(); 
    } 
@@ -82,7 +82,7 @@ greet("John"); // Hi John*/
 // javascript closure example
 
 // outer function
-/*
+
 function greet() {
   // variable defined outside the inner function
   let name = "John";
@@ -100,7 +100,7 @@ const g1 = greet();
 console.log(g1); // returns the function definition
 console.log(g1());*/
 // closure example
-/*
+
 function calculate(x) {
   function multiply(y) {
     return x * y;
@@ -117,7 +117,7 @@ console.log(multiply3()); // NaN
 console.log(multiply3(6)); // 18
 console.log(multiply4(2)); // 8*/
 
-/*
+
 let a = 0;
 function sum() {
   function increaseSum() {
@@ -135,24 +135,24 @@ a = a + 1;
 console.log(a); // 4*/
 
 //Interval
-/*
+
 function greet() {
   console.log("Hello world");
 }
 
 setInterval(greet, 1000);
-*/
+
 // program to display a text using setTimeout method
-/*
+
 function greet() {
   console.log("Hello world");
 }
 
 setTimeout(greet, 3000);
 console.log("This message is shown first");
-*/
+
 // program to display a text using setTimeout method
-/*
+
 function greet() {
   console.log("Hello world");
 }
@@ -204,9 +204,9 @@ try {
 } catch (error) {
   console.log("An error caught");
   console.log("Error message: " + error);
-}*/
+}
 
-/*
+
 
 function add(a, b) {
   try {
@@ -254,7 +254,7 @@ sayName("John");
 
 */
 // Callback Function Example
-/*
+
 function greet(name, myFunction) {
   console.log("Hello world");
 
@@ -282,4 +282,4 @@ f().then(function (result) {
   console.log(result);
 });
 
-*/
+
